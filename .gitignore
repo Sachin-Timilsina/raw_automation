@@ -1,2 +1,9 @@
 # Created by venv; see https://docs.python.org/3/library/venv.html
 raw_auto_env
+# Ignore local configs but keep the template
+utils/config.env
+utils/__pycache__/
+
+core/file_handlers/__pycache__/
+core/__pycache__/
+
