@@ -1,0 +1,16 @@
+raw_automation/
+├── core/                   # Core functionality
+│   ├── file_handlers/      # File-type-specific processors
+│   │   ├── pdf_handler.py
+│   │   ├── image_handler.py
+│   ├── text_processor.py   # NLP/text processing
+│   ├── qa_generator.py     # Question-answer generation logic
+│   └── formatter.py        # Output formatting (JSON, JSONL, etc.)
+├── utils/                  # Utilities
+│   ├── logger.py           # Logging
+│   ├── config.py           # Configuration (API keys, paths)
+│   └── exceptions.py       # Custom exceptions
+├── tests/                  # Unit/integration tests
+├── examples/               # Usage examples
+├── requirements.txt        # Dependencies
+└── README.md               # Documentation
